@@ -71,7 +71,10 @@ const Layout = ({ children, title = "World Ranks" }) => {
 
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>footer</footer>
+      <footer className={styles.footer}>
+        &copy; Ismath Ibrahim 2020. Data from{" "}
+        <a href="http://restcountries.eu/">restcountries.eu</a>
+      </footer>
     </div>
   );
 };
